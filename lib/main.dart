@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
       bottomNavigationBar: new Material(
         color: Colors.lightBlue[900],
         child: new TabBar(controller: controller, tabs: <Widget>[
-          // widget tabs dapat mengisi isi tabsnya
+          // widget tabs biar bisa ngisiin isi tabnya
           new Tab(icon: new Icon(Icons.menu)),
         ]),
       ),

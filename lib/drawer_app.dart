@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'detail_about.dart'as detail;
 
@@ -37,7 +39,7 @@ class Menudrawer extends StatelessWidget {
                 builder: (BuildContext context) => detail.DetailMenu(
                   nama: "Tentang Aplikasi Penjualan Minuman",
                   deskripsi:
-                       "Aplikasi ini berfungsi sebagai media yang mempermudah pengguna dalam memilih, maupum memesan hotel, dengan menampilkan rating dan lokasi hotel-hotel didalam apliksai ini",
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. ",
                   gambar: "about.png",
                 ),
               ));
